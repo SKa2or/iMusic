@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@drawable/title_bar"
+    android:baselineAligned="false" >
+    <LinearLayout
+        android:id="@+id/tab_01"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" >
+    	<Button
+            android:id="@+id/tab_btn_allMusic"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_allMusic"
+            android:textColor="@color/WHITE" />
+    </LinearLayout>
+	<LinearLayout
+        android:id="@+id/tab_02"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" >
+		<Button
+            android:id="@+id/tab_btn_music"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_music"
+            android:textColor="@color/WHITE" />
+	</LinearLayout>
+	<LinearLayout
+        android:id="@+id/tab_03"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" >
+		<Button
+            android:id="@+id/tab_btn_notice"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_notice"
+            android:textColor="@color/WHITE" />
+	</LinearLayout>
+
+</LinearLayout>

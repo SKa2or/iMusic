@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iMusic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- 登录界面 -->
+    <string name="title_activity_login">用户登录</string>
+    <string name="login_title">欢迎登录</string>
+    <string name="img_log">登陆图标</string>
+    <string name="text_username">用户名：</string>
+    <string name="edit_username">请输入您的用户名</string>
+    <string name="text_password">密码：</string>
+    <string name="edit_password">请输入密码</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_register">注册</string>
+    
+    <!-- 注册界面 -->
+    <string name="title_activity_register">用户注册</string>
+    <string name="register_title">欢迎注册</string>
+    <string name="text_nickname">昵称：</string>
+    <string name="edit_nickname">请输入您喜欢的昵称</string>
+    <string name="text_password2">确认密码：</string>
+    <string name="edit_password2">请再次输入密码</string>
+    <string name="btn_back">返回</string>
+    
+    <!-- 顶部界面 -->
+    <string name="btn_add">评论</string>
+    
+    <!-- 底部界面 -->
+    <string name="btn_allMusic">在线音乐</string>
+    <string name="btn_music">正在播放</string>
+    <string name="btn_notice">公告</string>
+    
+    <!-- 在线音乐（今日推荐）界面 -->
+    <string name="main_title">欢迎使用</string>
+    <string name="allMusic_title">今日推荐</string>
+    
+    <!-- 正在播放界面 -->
+    <string name="music_State">播放状态：无正在播放音乐</string>
+    <string name="music_title">歌曲名称：</string>
+    <string name="music_singer">歌手名称：</string>
+    <string name="music_rate">播放进度：</string>
+    <string name="imgBtn_play">播放按钮图片</string>
+    <string name="imgBtn_left">上一首按钮图片</string>
+    <string name="imgBtn_right">下一首按钮图片</string>
+    
+    <!-- 公告（评论区）界面 -->
+    <string name="title_activity_notice">公告</string>
+    <string name="text_notice_title">评论区</string>
+    <string name="btn_freshen">刷新</string>
+    
+    <!-- 分享界面 -->
+    <string name="title_activity_share">分享</string>
+    
+    <!-- 音乐ListView中item的显示界面 -->
+    <string name="text_music">歌曲：</string>
+    <string name="text_singer">歌手：</string>
+    
+    <!-- 评论ListView中item的显示界面 -->
+    <string name="commentMusic">评论歌曲：</string>
+    <string name="commentContent">评论内容：</string>
+    <string name="commentUser">评论者：</string>
+    
+    <!-- 单击评论ListView中item后跳转的显示界面 -->
+    <string name="title_activity_show_item">ShowItemActivity</string>
+    <string name="item_mid">评论歌曲：</string>
+    <string name="item_content">评论内容：</string>
+    <string name="item_uid">评论者：</string>
+    
+    <!-- 添加评论界面 -->
+    <string name="title_activity_add_commet">添加评论</string>
+    <string name="text_commentId">评论者id：</string>
+    <string name="edit_commentId">请输入用户id</string>
+    <string name="text_commentMusic">歌曲id：</string>
+    <string name="edit_commentMusic">请输入歌曲id</string>
+    <string name="text_commentContent">评论内容：</string>
+    <string name="edit_commentContent">请输入评论内容</string>
+    <string name="btn_addComment">添加评论</string>
+
+</resources>
